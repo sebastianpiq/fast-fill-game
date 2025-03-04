@@ -1,11 +1,11 @@
 # Fast Fill Game
 
-A fast-paced 2-player grid-filling game where players compete to claim the most squares. Players click empty squares to color them with their assigned color (red or blue). The game features live updates of the grid state, square counts, and elapsed time across all player's browsers. The game concludes when the grid is completely filled, with victory going to the player who claimed the most squares. In case of an equal number of squares, the game ends in a tie.
+A fast-paced 2-player grid-filling game where players compete to claim the most squares. Players click empty squares to color them with their assigned color (red or blue). The game features live updates of the grid state, square counts, and elapsed time across all players' browsers. The game concludes when the grid is completely filled, with victory going to the player who claimed the most squares. In case of an equal number of squares, the game ends in a tie.
 
 ## Project Structure
 
 - `frontend/` - React web application using Vite
-- `backend/` - Node.js + Socke.io backend server
+- `backend/` - Node.js + Socket.io backend server
 - `docker-compose.yml` - Docker configuration for running the entire stack
 
 ## Prerequisites
@@ -23,7 +23,7 @@ Optional:
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/sebastianpiq/fast-fill-game.git
 cd fast-fill-game
 ```
 
